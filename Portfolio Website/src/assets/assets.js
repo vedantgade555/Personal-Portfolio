@@ -1,6 +1,7 @@
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
-import profileImg from '../assets/profile.avif';
+import profileImg from '../assets/profile.png';
+import profileImage from '../assets/profileImage.avif';
 import projectImg1 from '../assets/project1.avif';
 import projectImg2 from '../assets/project2.avif';
 import projectImg3 from '../assets/project3.avif';
@@ -11,6 +12,7 @@ import projectImg6 from '../assets/project6.avif';
 
 export const assets = {
     profileImg,
+    profileImage,
 }
 
 
