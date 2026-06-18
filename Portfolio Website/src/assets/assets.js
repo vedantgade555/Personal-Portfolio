@@ -58,12 +58,12 @@ export const skills = [
     description: 'Designing and optimizing databases for performance and scalability.',
     tags: ['MongoDB', 'PostgreSQL', 'MySQL']
   },
-  {
-    title: 'Cloud & DevOps',
-    icon: FaCloud,
-    description: 'Deploying and managing applications in cloud environments.',
-    tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
-  },
+  // {
+  //   title: 'Cloud & DevOps',
+  //   icon: FaCloud,
+  //   description: 'Deploying and managing applications in cloud environments.',
+  //   tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
+  // },
   {
     title: 'Tools & Technologies',
     icon: FaTools,
