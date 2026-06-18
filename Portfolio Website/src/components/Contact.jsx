@@ -20,7 +20,7 @@ const Contact = () => {
           Have a project in mind or want to collaborate? Let's talk!
         </p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 max-w-5xl mx-auto">
           {/* Contact Form */}
           <div>
             <form action="" className="space-y-6">
@@ -94,7 +94,7 @@ const Contact = () => {
 
             <div className="pt-4">
               <h3 className="text-lg font-semibold mb-4">Follow Me</h3>
-              <div className="flex space-x-4">
+              <div className="flex flex-wrap gap-4">
                 <a href="https://github.com/vedantgade555" className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:bg-purple hover:text-white transition duration-300">
                   <FaGithub />
                 </a>

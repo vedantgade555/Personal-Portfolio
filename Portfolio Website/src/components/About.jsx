@@ -24,7 +24,7 @@ const About = () => {
           </p>
 
           {/* Img+ my journey */}
-          <div className="flex flex-col md:flex-row items-center gap-12">
+          <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-16">
             {/* Image */}
             <div className="md:w-1/2 rounded-2xl overflow-hidden">
               <motion.img
@@ -55,7 +55,7 @@ const About = () => {
                 </p>
 
                 {/* Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   {aboutInfo.map((data, index) => (
                     <div
                       key={index}

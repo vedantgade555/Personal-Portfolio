@@ -10,7 +10,7 @@ const Work = () => {
       transition={{ duration: 1, ease: "easeOut" }}
       viewport={{ once: false, amount: 0.2 }}
       id="experience"
-      className="py20 bg-dark-200"
+      className="py-20 bg-dark-200"
     >
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-4">
@@ -27,9 +27,9 @@ const Work = () => {
               <div
                 key={index}
                 className="relative pl-12
-                    before: content-[''] before: absolute before:left-0
-                    before: top-0 before:w-[2px] before:h-full
-                    before:bg-purple cursor-pointer hover :- translate-y-2
+                    before:content-[''] before:absolute before:left-0
+                    before:top-0 before:w-[2px] before:h-full
+                    before:bg-purple cursor-pointer hover:-translate-y-2
                     transition-all duration-300"
                 >
                 {/* Timeline dot*/}

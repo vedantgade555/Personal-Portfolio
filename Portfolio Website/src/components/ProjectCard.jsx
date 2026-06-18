@@ -13,7 +13,7 @@ const ProjectCard = ({ title, description, image, tech }) => {
           ))}
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
             <a href="#" className="flex-1 text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 transition">
               View Demo
             </a>
