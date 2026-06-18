@@ -24,6 +24,11 @@ const Navbar = () => {
             <span className="w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full mb-1"></span>
 
           </a>
+           <a href="#education" className="flex flex-col items-center group text-white/80 transition duration-300 hover:text-purple py-3">
+            <span>Education</span>
+            <span className="w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full mb-1"></span>
+
+          </a>
           <a href="#skills" className="flex flex-col items-center group text-white/80 transition duration-300 hover:text-purple py-3">
             <span>Skills</span>
             <span className="w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full mb-1"></span>
@@ -44,6 +49,7 @@ const Navbar = () => {
             <span className="w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full mb-1"></span>
 
           </a>
+
         </div>
 
         <div className="md:hidden">
@@ -68,6 +74,9 @@ const Navbar = () => {
           </a>
           <a href="#about" onClick={() => setShowMenu(false)} className="flex flex-col items-center group text-white/80 transition duration-300 hover:text-purple">
             <span>About</span>
+          </a>
+          <a href="#education" onClick={() => setShowMenu(false)} className="flex flex-col items-center group text-white/80 transition duration-300 hover:text-purple">
+            <span>Education</span>
           </a>
           <a href="#skills" onClick={() => setShowMenu(false)} className="flex flex-col items-center group text-white/80 transition duration-300 hover:text-purple">
             <span>Skills</span>

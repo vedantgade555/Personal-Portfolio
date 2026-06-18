@@ -76,55 +76,55 @@ export const skills = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
+    title: "AI-Chat Application",
+    description: "A full-featured AI chat application using gemini api",
     image: projectImg1,
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
+    tech: ["HTML", "CSS", "JavaScript"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
     demo: "#",
     code: "#",
   },
   {
-    title: "Task Management App",
-    description: "A productivity application with drag-and-drop functionality and real-time updates.",
+    title: "EasyFit",
+    description: "A fitness application for all exercises with responsive design",
     image: projectImg2,
-    tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
+    tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
     demo: "#",
     code: "#",
   },
   {
-    title: "Fitness Tracker",
-    description: "A mobile app for tracking workouts, nutrition, and health metrics.",
+    title: "Groomify",
+    description: "A software that will be help to book salon appointment online,and helps to owner to manage all componemts",
     image: projectImg3,
-    tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
+    tech: ["JSP", "Servlet","Bootstrap","MySql"],
     icons: [FaReact, FaDatabase],
     demo: "#",
     code: "#",
   },
   {
     title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    description: "A personal portfolio to showcase projects, skills,education,experience",
     image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
+    tech: ["React.js", "Tailwind CSS", "Framer Motion"],
     icons: [FaReact, FaCloud],
     demo: "#",
     code: "#",
   },
   {
-    title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
+    title: "Featness Recommendation Website",
+    description: "A application that will recommends the fitness activity to improve effiviency and accuracy",
     image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
+    tech: ["SpringBoot","Microservices","Keycloak","Bootstrap","React", "MySql", "MongoDB","Docker"],
     icons: [FaReact, FaNodeJs, FaDatabase ],
     demo: "#",
     code: "#",
   },
   {
-    title: "AI Image Generator",
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
+    title: "Medical Store Management System",
+    description: "Generate a bill and sent it on whatsapp,,manage the all stock and also give low stock alert",
     image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
+    tech: ["SpringBoot","Bootstrap","React","JWT Authentiation"],
     icons: [FaRobot, FaReact, FaCloud],
     demo: "#",
     code: "#",
@@ -134,27 +134,48 @@ export const projects = [
 
 export const workData = [
   {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
+    role: "Interned Java Developer",
+    company: " NILESON IT CONSULTING (OPC) PRIVATE LIMITED",
+    duration: "August 2025-November 2025",
     description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
+      "Durig internship i will learn those concepts that are used in industry and in fintech projects.",
+    color: "purple"
+  },
+  // {
+  //   role: "Web Developer",
+  //   company: "Digital Solutions LLC",
+  //   duration: "2018 - 2020",
+  //   description:
+  //     "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
+  //   color: "pink"
+  // },
+  // {
+  //   role: "Junior Developer",
+  //   company: "StartUp Ventures",
+  //   duration: "2016 - 2018",
+  //   description:
+  //     "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
+  //   color: "blue"
+  // }
+];
+
+export const eduData = [
+  {
+    role: "10th ",
+    company: "Mahatma Phule Vidhyalay Bhosari Pune 39",
+    duration: "2020",
     color: "purple"
   },
   {
-    role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
-    description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
+    role: "12th",
+    company: "BJS Collage Pimpri Pune 18",
+    duration: "2022",
     color: "pink"
   },
   {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
-    description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
+    role: "Bsc.Cs",
+    company: "MIT ACSC",
+    duration: "2023-2026",
     color: "blue"
   }
 ];
