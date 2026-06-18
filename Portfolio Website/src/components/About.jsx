@@ -11,7 +11,7 @@ const About = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true }}
         id="about"
-        className="py-20 bg-dark-200"
+        className="py-12 md:py-20 bg-dark-200"
       >
         <div className="container mx-auto px-6">
           {/* Heading */}
@@ -19,7 +19,7 @@ const About = () => {
             About
             <span className="text-purple">Me</span>
           </h2>
-          <p className="text-gray-400 text-center max-w-2xl mx-auto mb-16">
+          <p className="text-gray-400 text-center max-w-2xl mx-auto mb-10 md:mb-16">
             Get to know more about my background and passion
           </p>
 
@@ -31,7 +31,7 @@ const About = () => {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.9, ease: "easeOut" }}
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: true, amount: 0.1 }}
                 className="w-full h-full object-cover"
                 src={assets.profileImg}
                 alt="Profile Img"
