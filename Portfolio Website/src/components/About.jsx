@@ -48,10 +48,22 @@ const About = () => {
               <div className="rounded-2xl p-8">
                 <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
                 <p className="text-gray-300 mb-6">
-                  I'm a passionate Java Developer with a strong interest in building efficient, scalable, and reliable software applications. My journey started with learning programming fundamentals and has grown into developing backend solutions using Java, Spring Boot, SQL, and object-oriented programming principles. I enjoy solving complex problems, designing clean code, and creating applications that deliver real value to users.
+                  I'm a passionate Java Developer with a strong interest in
+                  building efficient, scalable, and reliable software
+                  applications. My journey started with learning programming
+                  fundamentals and has grown into developing backend solutions
+                  using Java, Spring Boot, SQL, and object-oriented programming
+                  principles. I enjoy solving complex problems, designing clean
+                  code, and creating applications that deliver real value to
+                  users.
                 </p>
                 <p className="text-gray-300 mb-12">
-                  When I'm not coding, I spend my time exploring new technologies, improving my data structures and algorithms skills, and working on personal projects to strengthen my development expertise. I believe in continuous learning and staying updated with industry trends to become a better developer and contribute to innovative software solutions.
+                  When I'm not coding, I spend my time exploring new
+                  technologies, improving my data structures and algorithms
+                  skills, and working on personal projects to strengthen my
+                  development expertise. I believe in continuous learning and
+                  staying updated with industry trends to become a better
+                  developer and contribute to innovative software solutions.
                 </p>
 
                 {/* Cards */}
