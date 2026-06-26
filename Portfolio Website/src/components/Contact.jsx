@@ -1,8 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaDribbble, FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaMapMarkerAlt, FaPhone, FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    
+    const whatsappNumber = "919028345904"; 
+    const message = `Hello Vedant, I am ${formData.name}.%0A%0AEmail: ${formData.email}%0A%0AMessage:%0A${formData.message}`;
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
+    
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -23,14 +43,19 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 max-w-5xl mx-auto">
           {/* Contact Form */}
           <div>
-            <form action="" className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-gray-300 mb-2">
                   Your Name
                 </label>
                 <input
                   type="text"
-                  className="w-full bg-dark-300 border border-dark-400 rounded-lg px-4 py-3 outline-none"
+                  name="name"
+                  id="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                  className="w-full bg-dark-300 border border-dark-400 rounded-lg px-4 py-3 outline-none text-white"
                 />
               </div>
 
@@ -40,7 +65,12 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
-                  className="w-full bg-dark-300 border border-dark-400 rounded-lg px-4 py-3 outline-none"
+                  name="email"
+                  id="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                  className="w-full bg-dark-300 border border-dark-400 rounded-lg px-4 py-3 outline-none text-white"
                 />
               </div>
 
@@ -48,14 +78,21 @@ const Contact = () => {
                 <label htmlFor="message" className="block text-gray-300 mb-2">
                   Your Message
                 </label>
-                <textarea className="w-full h-40 bg-dark-300 border border-dark-400 rounded-lg px-4 py-3 outline-none" />
+                <textarea 
+                  name="message"
+                  id="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                  className="w-full h-40 bg-dark-300 border border-dark-400 rounded-lg px-4 py-3 outline-none text-white" 
+                />
               </div>
 
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300 cursor-pointer"
+                className="w-full px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300 cursor-pointer text-white"
               >
-                Sent
+                Send Message
               </button>
             </form>
           </div>
