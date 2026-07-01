@@ -8,6 +8,8 @@ import projectImg3 from '../assets/project3.avif';
 import projectImg4 from '../assets/project4.avif';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
+import projectImg7 from '../assets/project7.avif';
+import projectImg8 from '../assets/project8.avif';
 
 
 export const assets = {
@@ -41,70 +43,124 @@ export const aboutInfo = [
 
 export const skills = [
   {
-    title: 'Frontend Development',
+    title: "Frontend Development",
     icon: FaReact,
-    description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React']
+    description: "Building responsive, interactive, and modern user interfaces.",
+    tags: [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "React",
+      "Bootstrap",
+      "Tailwind CSS",
+      "Responsive Design"
+    ]
   },
   {
-    title: 'Backend Development',
+    title: "Backend Development",
     icon: FaServer,
-    description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['SpringBoot']
+    description: "Developing scalable backend applications and RESTful APIs.",
+    tags: [
+      "Java",
+      "Spring Boot",
+      "Spring MVC",
+      "Spring Security",
+      "REST API",
+      "JWT Authentication",
+      "OAuth2",
+      "Maven"
+    ]
   },
   {
-    title: 'Database Management',
+    title: "Database Management",
     icon: FaDatabase,
-    description: 'Designing and optimizing databases for performance and scalability.',
-    tags: ['MongoDB', 'PostgreSQL', 'MySQL']
+    description: "Designing, managing, and optimizing relational and NoSQL databases.",
+    tags: [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Hibernate",
+      "Spring Data JPA",
+      "SQL"
+    ]
   },
-  // {
-  //   title: 'Cloud & DevOps',
-  //   icon: FaCloud,
-  //   description: 'Deploying and managing applications in cloud environments.',
-  //   tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
-  // },
   {
-    title: 'Tools & Technologies',
+    title: "Programming & Problem Solving",
+    icon: FaCode,
+    description: "Strong foundation in programming concepts and data structures.",
+    tags: [
+      "Java",
+      "Python",
+      "Data Structures",
+      "Algorithms",
+      "OOP",
+      "Collections Framework"
+    ]
+  },
+  {
+    title: "Version Control & Tools",
     icon: FaTools,
-    description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'Figma']
-  }
+    description: "Tools and technologies used in my daily development workflow.",
+    tags: [
+      "Git",
+      "GitHub",
+      "Postman",
+      "IntelliJ IDEA",
+      "VS Code",
+      "Eclips"
+    ]
+  },
+  // Uncomment if you learn these technologies
+  // {
+  //   title: "Cloud & DevOps",
+  //   icon: FaCloud,
+  //   description: "Deploying and managing applications in cloud environments.",
+  //   tags: [
+  //     "Docker",
+  //     "AWS",
+  //     "Kubernetes",
+  //     "CI/CD",
+  //     "GitHub Actions"
+  //   ]
+  // }
 ];
-
 
 
 export const projects = [
   {
-    title: "AI-Chat Application",
-    description: "A full-featured AI chat application using gemini api",
+    title: "AI Chat Application",
+    description:
+      "An AI-powered chat application that generates intelligent responses using the Gemini API, providing a smooth and interactive conversational experience.",
     image: projectImg1,
     tech: ["HTML", "CSS", "JavaScript"],
-    icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
+    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
     demo: "#",
     code: "#",
   },
   {
     title: "EasyFit",
-    description: "A fitness application for all exercises with responsive design",
+    description:
+      "A responsive fitness application that helps users discover exercises, follow workout routines, and stay consistent with their fitness goals.",
     image: projectImg2,
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
+    icons: [FaVuejs, FaFire, FaCloud, FaDatabase],
     demo: "#",
     code: "#",
   },
   {
     title: "Groomify",
-    description: "A software that will be help to book salon appointment online,and helps to owner to manage all componemts",
+    description:
+      "An online salon appointment booking system that allows customers to schedule visits while helping salon owners manage appointments and daily operations efficiently.",
     image: projectImg3,
-    tech: ["JSP", "Servlet","Bootstrap","MySql"],
+    tech: ["JSP", "Servlet", "Bootstrap", "MySql"],
     icons: [FaReact, FaDatabase],
     demo: "#",
     code: "#",
   },
   {
     title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills,education,experience",
+    description:
+      "A modern personal portfolio website built to showcase my projects, technical skills, education, and professional experience in an interactive way.",
     image: projectImg4,
     tech: ["React.js", "Tailwind CSS", "Framer Motion"],
     icons: [FaReact, FaCloud],
@@ -112,19 +168,41 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Featness Recommendation Website",
-    description: "A application that will recommends the fitness activity to improve effiviency and accuracy",
+    title: "Fitness Recommendation Website",
+    description:
+      "A fitness recommendation platform that suggests personalized workouts and activities based on user preferences to support healthier lifestyle choices.",
     image: projectImg5,
-    tech: ["SpringBoot","Microservices","Keycloak","Bootstrap","React", "MySql", "MongoDB","Docker"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
+    tech: ["SpringBoot", "Microservices", "Keycloak", "Bootstrap", "React", "MySql", "MongoDB", "Docker"],
+    icons: [FaReact, FaNodeJs, FaDatabase],
     demo: "#",
     code: "#",
   },
   {
     title: "Medical Store Management System",
-    description: "Generate a bill and sent it on whatsapp,,manage the all stock and also give low stock alert",
+    description:
+      "A pharmacy management system that manages inventory, generates bills, sends invoices through WhatsApp, and provides low-stock alerts for better inventory control.",
     image: projectImg6,
-    tech: ["SpringBoot","Bootstrap","React","JWT Authentiation"],
+    tech: ["SpringBoot", "Bootstrap", "React", "JWT Authentication"],
+    icons: [FaRobot, FaReact, FaCloud],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "Video Calling and Chat Application",
+    description:
+      "A real-time communication platform that enables users to create virtual meeting rooms, exchange messages, and participate in secure video calls.",
+    image: projectImg7,
+    tech: ["SpringBoot", "Bootstrap", "React", "JWT Authentication"],
+    icons: [FaRobot, FaReact, FaCloud],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "Secure Notes",
+    description:
+      "A secure note-taking application with JWT-based authentication and Google and GitHub OAuth login, allowing users to store and manage their notes safely.",
+    image: projectImg8,
+    tech: ["SpringBoot", "Bootstrap", "React", "JWT Authentication", "OAuth2 Authentication"],
     icons: [FaRobot, FaReact, FaCloud],
     demo: "#",
     code: "#",

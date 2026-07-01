@@ -138,12 +138,12 @@ const Contact = () => {
                  <a href="https://www.linkedin.com/in/vedant-gade-a95037353?utm_source=share_via&utm_content=profile&utm_medium=member_android" className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition duration-300">
                   <FaLinkedin />
                 </a>
-                 <a href="#" className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition duration-300">
+                 {/* <a href="#" className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition duration-300">
                   <FaTwitter />
                 </a>
                  <a href="#" className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-pink hover:bg-pink hover:text-white transition duration-300">
                   <FaDribbble />
-                </a>
+                </a> */}
                 <a href="https://www.instagram.com/vedant.gade_5500?utm_source=qr&igsh=MXQ4dm0zOW1wYm5xbw%3D%3D" className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-pink hover:bg-pink hover:text-white transition duration-300">
                   <FaInstagram />
                 </a>
