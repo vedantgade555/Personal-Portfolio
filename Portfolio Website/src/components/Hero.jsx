@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { assets } from "../assets/assets";
+import { HiOutlineDownload } from "react-icons/hi";
 
 const Hero = () => {
   return (
@@ -26,7 +27,7 @@ const Hero = () => {
             innovative design.
           </p>
 
-          <div className="flex space-x-4">
+          <div className="flex flex-wrap gap-4">
             <a
               href="#projects"
               className="px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300"
@@ -38,6 +39,14 @@ const Hero = () => {
               className="px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple/20 decoration-purple-300"
             >
               Contact Me
+            </a>
+            <a
+              href="/resume.pdf"
+              download
+              className="group flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple to-pink rounded-lg font-medium shadow-lg shadow-purple/25 hover:shadow-purple/40 hover:scale-105 transition-all duration-300"
+            >
+              <HiOutlineDownload className="text-xl group-hover:animate-bounce" />
+              Resume
             </a>
           </div>
         </div>
