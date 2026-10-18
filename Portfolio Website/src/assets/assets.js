@@ -255,5 +255,11 @@ export const eduData = [
     company: "MIT ACSC",
     duration: "2023-2026",
     color: "blue"
+  },
+  {
+    role: "MCA",
+    company: "DESPU",
+    duration: "2026-2028",
+    color: "blue"
   }
 ];
